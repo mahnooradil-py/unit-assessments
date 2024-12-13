@@ -7,10 +7,13 @@ def n_sum(num):
 def n_l(num):
     print("The largest:",max(num))
 def n_r(num):
-    print("The list in reversed:",reverse(num))
+    print("The list in reversed:", list(reverse(num)))
 def n_sm(num):
     print("The smallest:",min(num))
     
-
-
-
+# Calling the functions to test them 
+n_list(the_num_list)
+n_sum(the_num_list)
+n_l(the_num_list)
+n_r(the_num_list)
+n_sm(the_num_list)
